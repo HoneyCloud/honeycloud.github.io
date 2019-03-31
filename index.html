@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HoneyCloud</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      padding-top: 70px;
+    }
+
+    .navbar-default {
+      height: 65px;
+    }
+
+    .navbar-default .navbar-brand {
+      padding-top: 0;
+      padding-bottom: 0;
+      line-height: 65px;
+      font-size: 18pt;
+    }
+
+    .navbar-nav>li>a {
+      padding-top: 0;
+      padding-bottom: 0;
+      line-height: 65px;
+      font-size: 16pt;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">HoneyCloud Study</a>
+      </div>
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ">
+          <li><a href="#about">About</a></li>
+          <li><a href="#download">Downloads</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="page-header">
+          <h2 id="about">About this Study</h2>
+          <p style="font-size: 16px">
+            With the wide adoption, Linux-based IoT devices have emerged as one primary target of
+            today’s cyber attacks. While traditional malware-based attacks (e.g., Mirai) can quickly
+            spread across these devices, they are well-understood threats with defense techniques
+            such as malware fingerprinting coupled with community-based fingerprint sharing.
+            Recently, fileless attacks—attacks that do not rely on malware files—have been increasingly
+            occurring on Linux-based IoT devices. Such attacks pose significant threats to the security
+            and privacy of IoT systems; however, little has been known in terms of their characteristics
+            and attack vectors, which hinders research and development efforts to defend against them.
+            <br><br>
+            In this study, we present our endeavor in understanding fileless attacks on Linux-based
+            IoT devices in the wild. Over a span of 12 months, we deployed four hardware IoT honeypots
+            and 108 specially designed software IoT honeypots, which successfully attracted a wide
+            variety of real-world IoT attacks. We present our measurement study on these attacks, with a
+            focus on fileless attacks, including the prevalence, exploits, environments, and impacts.
+            Our study further leads to multi-fold insights towards actionable defense strategies which can
+            be adopted by IoT vendors and end users.
+          </p>
+          <br>
+          <h2 id="download">Code and Raw Data Download</h2>
+          <p style="font-size: 16px">
+            Our paper has been conditionally accepted for
+            <a href="https://www.sigmobile.org/mobisys/2019/">MobiSys 2019</a>.<br>
+          </p>
+          <h4>Code</h4>
+          <p style="font-size: 16px">
+            We provide the customization code of HoneyCloud <a
+              href="https://github.com/HoneyCloud/MobiSys19/tree/master/code">on GitHub</a>.<br>
+          </p>
+          <h4>Raw Data</h4>
+          <p style="font-size: 16px">
+            We provide the login attemps data <a href="https://github.com/HoneyCloud/MobiSys19/tree/master/dataset">on
+              GitHub</a>.<br>
+            The dataset of SSH and Telnet is hosted at at the <a href="https://ds.dang.fan">website</a>.
+          </p>
+          <p style="font-size: 16px">
+            Please cite this study when using the data.
+          </p>
+
+          <h2 id="contact">Contact</h2>
+          <p>
+            <b>dangfan</b> [AT] <b>tsinghua.edu.cn</b>
+          </p>
+          <p>
+            <b>lizhenhua1983</b> [AT] <b>tsinghua.edu.cn</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
